@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Servicio de Catering</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <!-- Load Require CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font CSS -->
+    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+		<!-- carga CSS -->
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a class="navbar-brand h1" href="index.html">
+                <i class='bx bx-buildings bx-sm text-dark'></i>
+	       <span class="text-dark h4">Servicio de</span><span class="text-dark h4"> Catering</span></a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
+                <div class="flex-fill mx-xl-5 mb-2">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+                       <li class="nav-item">
+                            <a class="nav-link btn-outline-dark rounded-pill px-3" href="index.html">Home</a>
+						<!-- px = padding y mx es el margin 
+						rounded-pill =genera ese boton con bordes redondeados rounded-circle-->	
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-dark rounded-pill px-3" href="about.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-dark rounded-pill px-3" href="work.html">Trabajos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-dark rounded-pill px-3" href="pricing.html">Precios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-dark rounded-pill px-3" href="contact.html">Contáctanos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar align-self-center d-flex">
+                    <a class="nav-link" href="#"><i class='bx bxs-bell bx-sm bx-tada-hover text-dark'></i></a>
+                    <a class="nav-link" href="#"><i class='bx bx-slider bx-sm text-dark'></i></a>
+                    <a class="nav-link" href="#"><i class='bx bxs-user-circle bx-sm text-dark'></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Close Header -->
+
+
+    <!-- Start pricing -->
+    <div class="container-lg py-5">
+        <div class="col-md-12 m-auto text-center py-5">
+            <h1 class="pricing-header h2 semi-bold-600">Tipos de servicios</h1>
+            <p class="pricing-footer">
+                Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut facilisis.
+            </p>
+        </div>
+
+
+        <div class="row px-lg-3">
+
+
+            <div class="col-md-4 pb-5 pt-sm-0 mt-5 px-xl-3">
+                <div class="pricing-table card h-100 shadow-sm border-0 py-5">
+                    <div class="pricing-table-body card-body rounded-pill text-center align-self-center p-md-0">
+                        <i class="pricing-table-icon display-3 bx bx-package text-dark"></i>
+                        <h2 class="pricing-table-heading h5 semi-bold-600">Plan fiesta familiar</h2>
+                        <p>$0</p>
+                        <ul class="pricing-table-body text-start text-dark px-4 list-unstyled light-300">
+                            <li><i class="bx bxs-circle me-2"></i>Hasta 50 personas</li>
+                            <li><i class="bx bxs-circle me-2"></i>Servicio de mozos</li>
+                            <li><i class="bx bxs-circle me-2"></i>Cena o almuerzo completo</li>
+                            <li><i class="bx bxs-circle me-2"></i>Cerveza tirada</li>
+                        </ul>
+                        <div class="pricing-table-footer pt-5">
+                            <a href="#" class="btn rounded-pill px-4 btn-outline-dark light-300">Registrarse</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 pt-sm-0 pt-3 px-xl-3">
+                <div class="pricing-table card bg-dark h-100 card-rounded shadow-sm border-0 py-5">
+                    <div class="pricing-table-body card-body text-center text-white align-self-center p-md-0">
+                        <i class="pricing-table-icon display-3 bx bx-package text-white py-3"></i>
+                        <h2 class="pricing-table-heading h5 semi-bold-600">Plan social</h2>
+                        <p>$120/Año</p>
+                        <ul class="pricing-table-list text-start text-dark px-4 list-unstyled light-300">
+                            <li class="text-white"><i class="bx bxs-circle me-2"></i>Hasta 100 personas</li>
+                            <li class="text-white"><i class="bx bxs-circle me-2"></i>Servisio de Mozos</li>
+                            <li class="text-white"><i class="bx bxs-circle me-2"></i>Cena o almuerzo completo</li>
+                            <li class="text-white"><i class="bx bxs-circle me-2"></i>Barra libre</li>
+                        </ul>
+                        <div class="pricing-table-footer pt-5 pb-2">
+                            <a href="#" class="btn rounded-pill px-4 btn-outline-light light-300">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 pb-5 pt-sm-0 mt-5 px-xl-3">
+                <div class="pricing-table card h-100 shadow-sm border-0 py-5">
+                    <div class="pricing-table-body card-body text-center align-self-center p-md-0">
+                        <i class="pricing-table-icon display-3 bx bx-package text-dark"></i>
+                        <h2 class="pricing-table-heading h5 semi-bold-600">Plan empresarial</h2>
+                        <p>$840/Year</p>
+                        <ul class="pricing-table-list text-start text-dark px-4 list-unstyled light-300">
+                            <li><i class="bx bxs-circle me-2"></i>Hasta 500 personas</li>
+                            <li><i class="bx bxs-circle me-2"></i>Servicio de mozos, barra libre</li>
+                            <li><i class="bx bxs-circle me-2"></i>Servicio de luces y espectáculos</li>
+                            <li><i class="bx bxs-circle me-2"></i>Posibilidad de hasta 3 platos</li>
+                            <li><i class="bx bxs-circle me-2"></i>Servicio de limpieza</li>
+                        </ul>
+                        <div class="pricing-table-footer pt-1">
+                            <a href="#" class="btn rounded-pill px-4 btn-outline-dark light-300">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- End Content -->
+
+
+
+
+
+    <!-- Start Pricing Horizontal Section -->
+    <section class="bg-light pt-sm-0 py-5">
+        <div class="container py-5">
+
+            <h1 class="h2 semi-bold-600 text-center mt-2">Precios especiales</h1>
+            <p class="text-center pb-5 light-300">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut facilisis.</p>
+
+            <!-- Start Pricing Horizontal -->
+            <div class="pricing-horizontal row col-10 m-auto d-flex shadow-sm rounded overflow-hidden bg-white">
+                <div class="pricing-horizontal-icon col-md-3 text-center bg-dark text-light py-4">
+                    <i class="display-1 bx bx-package pt-4"></i>
+                    <h5 class="h5 semi-bold-600 pb-4 light-300">Básico</h5>
+                </div>
+                <div class="pricing-horizontal-body offset-lg-1 col-md-5 col-lg-4 d-flex align-items-center pl-5 pt-lg-0 pt-4">
+                    <ul class="text-left px-4 list-unstyled mb-0 light-300">
+                        <li><i class="bx bxs-circle me-2"></i>Reunión familiar</li>
+                        <li><i class="bx bxs-circle me-2"></i>Servicio básico</li>
+                        <li><i class="bx bxs-circle me-2"></i>5 horas</li>
+                    </ul>
+                </div>
+                <div class="pricing-horizontal-tag col-md-4 text-center pt-3 d-flex align-items-center">
+                    <div class="w-100 light-300">
+                        <p>$100.000</p>
+                        <a href="#" class="btn rounded-pill px-4 btn-outline-dark mb-3">Registrarse</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End Pricing Horizontal -->
+
+            <!-- Start Pricing Horizontal -->
+            <div class="pricing-horizontal row col-10 m-auto d-flex shadow-sm rounded overflow-hidden my-5 bg-white">
+                <div class="pricing-horizontal-icon col-md-3 text-center bg-dark text-light py-4">
+                    <i class="display-1 bx bx-package pt-4"></i>
+                    <h5 class="h5 semi-bold-600 pb-4 light-300">Casamiento o fiesta de 15</h5>
+                </div>
+                <div class="pricing-horizontal-body offset-lg-1 col-md-5 col-lg-4 d-flex align-items-center pl-5 pt-lg-0 pt-4">
+                    <ul class="text-left px-4 list-unstyled mb-0 light-300">
+                        <li><i class="bx bxs-circle me-2"></i>A programar según cant. de invitados</li>
+                        <li><i class="bx bxs-circle me-2"></i>Servicio completo</li>
+                        <li><i class="bx bxs-circle me-2"></i>7 horas</li>
+                    </ul>
+                </div>
+                <div class="pricing-horizontal-tag col-md-4 text-center pt-3 d-flex align-items-center">
+                    <div class="w-100 light-300">
+                        <p>$500.000</p>
+                        <a href="#" class="btn rounded-pill px-4 btn-outline-dark mb-3">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End Pricing Horizontal -->
+
+            <!-- Start Pricing Horizontal -->
+            <div class="pricing-horizontal row col-10 m-auto d-flex shadow-sm rounded overflow-hidden bg-white">
+                <div class="pricing-horizontal-icon col-md-3 text-center bg-dark text-light py-4">
+                    <i class="display-1 bx bx-package pt-4"></i>
+                    <h5 class="h5 semi-bold-600 pb-4 light-300">Empresarial</h5>
+                </div>
+                <div class="pricing-horizontal-body offset-lg-1 col-md-5 col-lg-4 d-flex align-items-center pl-5 pt-lg-0 pt-4">
+                    <ul class="text-left px-4 list-unstyled mb-0 light-300">
+                        <li><i class="bx bxs-circle me-2"></i>Srvicio de bienvenida</li>
+                        <li><i class="bx bxs-circle me-2"></i>Más de 10 lugares para elegir para tu evento</li>
+                        <li><i class="bx bxs-circle me-2"></i>Acuerdos con hoteles</li>
+                        <li><i class="bx bxs-circle me-2"></i>Servicio completo</li>
+                    </ul>
+                </div>
+                <div class="pricing-horizontal-tag col-md-4 text-center pt-3 d-flex align-items-center">
+                    <div class="w-100 light-300">
+                        <p>Consultar</p>
+                        <a href="#" class="btn rounded-pill px-4 btn-outline-dark mb-3">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End Pricing Horizontal -->
+
+        </div>
+    </section>
+    <!--End Pricing Horizontal Section-->
+
+    <section class="container py-5">
+
+        <h1 class="h2 semi-bold-600 text-center pt-5">Precios Campañas Marketing</h1>
+        <p class="text-center pb-5 light-300">
+            Vector illustration from <a rel="nofollow" href="https://storyset.com/" target="_blank">StorySet</a>.
+            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut facilisis.
+        </p>
+
+        <div class="row d-flex align-items-center pb-5">
+
+            <div class="col-lg-6 offset-lg-0 col-md-8 offset-md-2">
+                <img class="rounded float-right" src="./assets/img/Choice-amico.svg">
+            </div>
+
+            <div class="col-lg-6">
+
+                <!-- Start Pricing List -->
+                <div class="pricing-list shadow-sm rounded-top rounded-3 py-sm-0 py-5">
+                    <div class="row p-2">
+                        <div class="pricing-list-icon col-3 text-center m-auto text-dark ml-5 py-2">
+                            <i class="display-3 bx bx-package"></i>
+                        </div>
+                        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
+                            <ul class="list-unstyled text-center light-300">
+                                <li class="h5 semi-bold-600 mb-0 mt-3">Gratis</li>
+                                <li>Asesoramiento y Presupuesto.</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-list-footer col-4 text-center m-auto align-items-center">
+                            <a href="#" class="btn rounded-pill px-4 btn-dark light-300">$0</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Pricing List -->
+
+                <!-- Start Pricing List -->
+                <div class="pricing-list shadow-sm py-sm-0 py-5">
+                    <div class="row p-2">
+                        <div class="pricing-list-icon col-3 text-center m-auto text-dark ml-5 py-2">
+                            <i class="display-3 bx bx-package"></i>
+                        </div>
+                        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
+                            <ul class="list-unstyled text-center light-300">
+                                <li class="h5 semi-bold-600 mb-0 mt-3">Básica</li>
+                                <li>Envío de 1.000 mails</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-list-footer col-sm-4 col-5 text-center m-auto align-items-center">
+                            <a href="#" class="btn rounded-pill px-4 btn-dark light-300">$120/Año</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Pricing List -->
+
+                <!-- Start Pricing List -->
+                <div class="pricing-list shadow-sm rounded-botton rounded-3 py-sm-0 py-5">
+                    <div class="row p-2">
+                        <div class="pricing-list-icon col-sm-3 text-center m-auto text-dark ml-5 py-2">
+                            <i class="display-3 bx bx-package"></i>
+                        </div>
+                        <div class="pricing-list-body col-md-5 align-items-center pl-3 pt-2">
+                            <ul class="list-unstyled text-center light-300">
+                                <li class="h5 semi-bold-600 mb-0 mt-3">Empresarial</li>
+                                <li>Story Telling y envío de mails.</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-list-footer col-sm-4 col-5 text-center m-auto align-items-center">
+                            <a href="#" class="btn rounded-pill px-4 btn-dark light-300">$840/Año</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Pricing List -->
+                <p class="text-center"><a class="btn px-4 mt-4 mx-auto btn-outline-dark" href="#">Consultas por otros planes</a></p>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Start Footer -->
+    <footer class="bg-dark pt-4">
+        <div class="container">
+            <div class="row py-4">
+
+                <div class="col-lg-3 col-12 align-left">
+                    <a class="navbar-brand" href="index.html">
+                        <i class='bx bx-buildings bx-sm text-light'></i>
+                        <span class="text-light h5">Marke-</span><span class="text-light h5 semi-bold-600">Ting</span>
+                    </a>
+                    <p class="text-light my-lg-4 my-2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut.
+                    </p>
+                    <ul class="list-inline footer-icons light-300">
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="http://facebook.com/">
+                                <i class='bx bxl-facebook-square bx-md'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.linkedin.com/">
+                                <i class='bx bxl-linkedin-square bx-md'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.whatsapp.com/">
+                                <i class='bx bxl-whatsapp-square bx-md'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.flickr.com/">
+                                <i class='bx bxl-flickr-square bx-md'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.medium.com/">
+                                <i class='bx bxl-medium-square bx-md' ></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h3 class="h4 pb-lg-3 text-light light-300">Nuestro Estudio</h2>
+                        <ul class="list-unstyled text-light light-300">
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" 
+								href="index.html">Home</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+								href="about.html">Nosotros</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+								href="work.html">Trabajos</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1" 
+								href="pricing.html">Precios</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+								href="contact.html">Contáctanos</a>
+                            </li>
+                        </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">Trabajos</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="#">Marcas</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="#">Negocios</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="#">Marketing</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="#">Redes Sociales</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="#">Gráfica</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">Atendemos en:</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="tel:010-020-0340">021-2354-4568</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1"
+							href="mailto:info@company.com">info@company.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="w-100 bg-dark py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-start text-center text-light light-300">
+                            © Copyright 2021 Marke-Ting. Todos los derechos reservados.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-end text-center text-light light-300">
+                            Diseñado por <a rel="sponsored" class="text-decoration-none text-light" 
+							href="https://cursophp.com.ar/" target="_blank"><strong>CAC FullStack</strong></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+
+
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
